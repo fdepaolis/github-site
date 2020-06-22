@@ -8,4 +8,5 @@ I plan to use this page for my data science projects. This is the begining of th
 ### Project
 First project: COVID19 using New York Times data by state and county. You can see the first version [here](https://rpubs.com/RStudio_knight/630856)
 
+xxxxxxx
 
