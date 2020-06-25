@@ -1,9 +1,9 @@
 title: Fernando DePaolis # your name (or website title) here
 logo: "https://fdp2012.github.io/FernandoDePaolis.github.io/images/fdp_4_large.JPG" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  1 
+  . 
   <br><br>
-  2 
+  .. 
   <br><br>
   <a href="https://www.linkedin.com/in/fernando-depaolis-284ab15/">View My LinkedIn Profile</a> 
 theme: jekyll-theme-minimal
