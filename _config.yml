@@ -1,3 +1,13 @@
-theme: jekyll-theme-hacker
+title: Fernando DePaolis # your name (or website title) here
+logo: "/images/fdp_4_large.jpg?raw=true" # your photo (or logo) here
+description: > # your text below (remove <br> elements if you don't need line breaks)
+  First line 
+  <br><br>
+  Second line 
+  <br><br>
+  <a href="https://www.linkedin.com/in/fernando-depaolis-284ab15/">View My LinkedIn Profile</a> 
+
+
+theme: jekyll-theme-journal
 name: something
 title: null
