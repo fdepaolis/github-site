@@ -1,4 +1,4 @@
-# Fernando DePaolis Data Science pages
+# Data Science pages
 Welcome to my GitHub site
 
 
