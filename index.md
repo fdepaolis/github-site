@@ -1,8 +1,8 @@
-# Data Science pages
-Welcome to my GitHub site
+# Welcome to my github Data Science pages
 
 
-## Purpose
+
+### Purpose
 I plan to use this page for my data science projects. This is the begining of this page and there is not much content yet. Come back later
 
 ### Projects
