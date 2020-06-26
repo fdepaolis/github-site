@@ -2,9 +2,9 @@ title: Fernando DePaolis # your name (or website title) here
 logo: "https://fdp2012.github.io/FernandoDePaolis.github.io/images/fdp_4_large.JPG" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   . 
-  <br><br>
-  . 
   <br><br> 
-  <a href="https://www.linkedin.com/in/fernando-depaolis-284ab15/" target="_blank">View My LinkedIn Profile</a>
+  <a href="https://www.middlebury.edu/institute/people/fernando-depaolis" target="_blank">View my Middlebury Institute page</a>
+  <br><br>
+  <a href="https://www.linkedin.com/in/fernando-depaolis-284ab15/" target="_blank">View my LinkedIn Profile</a>
   
 theme: jekyll-theme-minimal
