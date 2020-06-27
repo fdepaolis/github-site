@@ -1602,7 +1602,13 @@ Middlebury Institute of International Studies <a href="https://www.middlebury.ed
 <h1></h1>
 <div id="introduction" class="section level4">
 <h4>Introduction</h4>
-<p>We use functions in the following libraries:</p>
+<p In this project, we use the datasets available at the New York Times <a href="https://github.com/nytimes/covid-19-data">RCurl<github page.
+The main dataset has confirmed cases and deaths by date and county or state (in two separate data files). 
+We have developed the R code to read the datasets, limit the geography to states (i.e. removed territories) and started the process to clean up missing data.
+There are two types of missing data. For any given date, there are cases and death for which there is no county information (county and fips fields are 'unknown').
+The other type of missing cases is limited to New York and Missouri. For each state, 
+the county field has a value "New York City" or "Kansas City" and the fips code is missing.</p> 
+<p>For the main R code, we use functions in the following libraries:</p>
 <ul>
 <li><p><a href="https://cran.r-project.org/web/packages/RCurl/">RCurl</a> # Functions to compose general HTTP requests</p></li>
 <li><p><a href="https://cran.r-project.org/web/packages/tidyverse/">tidyverse</a> # Set of packages for data cleaning and reshaping data</p></li>
