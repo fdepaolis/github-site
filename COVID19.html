@@ -1609,7 +1609,7 @@ There are two types of missing data. For any given date, there are cases and dea
 The other type of missing cases is limited to New York and Missouri. For each state, 
 the county field has a value "New York City" or "Kansas City" and the fips code is missing.</p> 
 
-<p> The main goal of to provide a code that is easy to follow and results that are easy to reproduce. Feel free to copy the code and run it. We hope you find it useful.</p>
+<p> The main goal of this project is to provide a code that is easy to follow and results that are easy to reproduce. Feel free to copy the code and run it. We hope you find it useful.</p>
 <p>For the main R code, we use functions in the following libraries:</p>
 <ul>
 <li><p><a href="https://cran.r-project.org/web/packages/RCurl/">RCurl</a> # Functions to compose general HTTP requests</p></li>
@@ -1631,7 +1631,7 @@ the county field has a value "New York City" or "Kansas City" and the fips code 
 </div>
 </div>
 <div id="removes-data-for-territories" class="section level4">
-<h4>Removes data for territories and unknown fips</h4>
+<h4>Removes data for territories</h4>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a>territ &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Guam&quot;</span>,<span class="st">&quot;Virgin Islands&quot;</span>,</span>
 <span id="cb2-2"><a href="#cb2-2"></a>            <span class="st">&quot;Puerto Rico&quot;</span>,<span class="st">&quot;Northern Mariana Islands&quot;</span>)</span>
 <span id="cb2-3"><a href="#cb2-3"></a>cases_UScounties &lt;-<span class="st"> </span>cases_UScounties_full</span>
