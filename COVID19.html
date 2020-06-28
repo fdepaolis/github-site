@@ -1627,17 +1627,7 @@ the county field has a value "New York City" or "Kansas City" and the fips code 
 <span id="cb1-2"><a href="#cb1-2"></a>cases_UScounties_full &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="dt">text =</span> urlfile)</span></code></pre></div>
 <div align="right">
 <a href="#top">Back to top</a>
-</div>
-</div>
-<div id="removes-data-for-territories-and-unknown-fips" class="section level4">
-<h4>Removes data for territories and unknown fips</h4>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a>cases_UScounties &lt;-<span class="st"> </span><span class="kw">subset</span>(cases_UScounties_full,</span>
-<span id="cb2-2"><a href="#cb2-2"></a>     cases_UScounties_full<span class="op">$</span>state <span class="op">!=</span><span class="st">&quot;Guam&quot;</span> <span class="op">&amp;</span></span>
-<span id="cb2-3"><a href="#cb2-3"></a><span class="st">     </span>cases_UScounties_full<span class="op">$</span>state <span class="op">!=</span><span class="st">&quot;Virgin Islands&quot;</span> <span class="op">&amp;</span></span>
-<span id="cb2-4"><a href="#cb2-4"></a><span class="st">     </span>cases_UScounties_full<span class="op">$</span>state <span class="op">!=</span><span class="st">&quot;Puerto Rico&quot;</span> <span class="op">&amp;</span></span>
-<span id="cb2-5"><a href="#cb2-5"></a><span class="st">     </span>cases_UScounties_full<span class="op">$</span>state <span class="op">!=</span><span class="st">&quot;Northern Mariana Islands&quot;</span>)</span></code></pre></div>
-<div align="right">
-<a href="#top">Back to top</a>
+
 </div>
 </div>
 <div id="removes-data-for-territories-and-unknown-fips" class="section level4">
@@ -1653,6 +1643,16 @@ the county field has a value "New York City" or "Kansas City" and the fips code 
 <a href="#top">Back to top</a>
 </div>
 </div>
+<div id="removes-missing-county-data" class="section level4">
+  <h4>Removes missing county data</h4>
+  <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a>cases_UScounties &lt;-<span class="st"> </span><span class="kw">subset</span>(cases_UScounties_full,</span>
+  <span id="cb3-2"><a href="#cb3-2"></a>                           cases_UScounties_full<span class="op">$</span>county <span class="op">!=</span><span class="st">&quot;Unknown&quot;</span>) </span>
+  <span id="cb3-3"><a href="#cb3-3"></a></span>
+  <span id="cb3-4"><a href="#cb3-4"></a><span class="co"># some cases are assigned county== &quot;Kansas City&quot;ord &quot;New York City&quot; with fips==&#39;00NA&#39; CONSIDER REMOVING</span></span></code></pre></div>
+  <div align="right">
+  <a href="#top">Back to top</a>
+  </div>
+  </div>
 <div id="reformats-fips-code-to-match-nist" class="section level4">
 <h4>Reformats “fips” code to match NIST</h4>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="co"># Adds a leading zero to 4-digit fips</span></span>
