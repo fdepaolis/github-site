@@ -1608,6 +1608,8 @@ We have developed the R code to read the datasets, limit the geography to states
 There are two types of missing data. For any given date, there are cases and death for which there is no county information (county and fips fields are 'unknown').
 The other type of missing cases is limited to New York and Missouri. For each state, 
 the county field has a value "New York City" or "Kansas City" and the fips code is missing.</p> 
+
+<p> The main goal of to provide a code that is easy to follow and results that are easy to reproduce. Feel free to copy the code and run it. We hope you find it useful.</p>
 <p>For the main R code, we use functions in the following libraries:</p>
 <ul>
 <li><p><a href="https://cran.r-project.org/web/packages/RCurl/">RCurl</a> # Functions to compose general HTTP requests</p></li>
@@ -1638,12 +1640,15 @@ the county field has a value "New York City" or "Kansas City" and the fips code 
 <a href="#top">Back to top</a>
 </div>
 </div>
-<div id="removes-missing-county-data" class="section level4">
-<h4>Removes missing county data</h4>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a>cases_UScounties &lt;-<span class="st"> </span><span class="kw">subset</span>(cases_UScounties_full,</span>
-<span id="cb3-2"><a href="#cb3-2"></a>                           cases_UScounties_full<span class="op">$</span>county <span class="op">!=</span><span class="st">&quot;Unknown&quot;</span>) </span>
-<span id="cb3-3"><a href="#cb3-3"></a></span>
-<span id="cb3-4"><a href="#cb3-4"></a><span class="co"># some cases are assigned county== &quot;Kansas City&quot;ord &quot;New York City&quot; with fips==&#39;00NA&#39; CONSIDER REMOVING</span></span></code></pre></div>
+<div id="removes-data-for-territories-and-unknown-fips" class="section level4">
+<h4>Removes data for territories and unknown fips</h4>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a>territ &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;Guam&quot;</span>,<span class="st">&quot;Virgin Islands&quot;</span>,</span>
+<span id="cb2-2"><a href="#cb2-2"></a>            <span class="st">&quot;Puerto Rico&quot;</span>,<span class="st">&quot;Northern Mariana Islands&quot;</span>)</span>
+<span id="cb2-3"><a href="#cb2-3"></a>cases_UScounties &lt;-<span class="st"> </span>cases_UScounties_full</span>
+<span id="cb2-4"><a href="#cb2-4"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span><span class="dv">4</span>){</span>
+<span id="cb2-5"><a href="#cb2-5"></a>cases_UScounties &lt;-<span class="st"> </span><span class="kw">subset</span>(cases_UScounties,</span>
+<span id="cb2-6"><a href="#cb2-6"></a>        cases_UScounties<span class="op">$</span>state <span class="op">!=</span>territ[i])</span>
+<span id="cb2-7"><a href="#cb2-7"></a>}</span></code></pre></div>
 <div align="right">
 <a href="#top">Back to top</a>
 </div>
