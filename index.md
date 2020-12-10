@@ -3,7 +3,7 @@
 
 
 ### Purpose
-I plan to use this page for my data science projects. This is the begining of this page and there is not much content yet. Come back later
+I plan to use this page for my data science projects and most of them are developed for teaching purposes. There will be lots of references to the work of others, and hopefully people will find it useful.
 
 
 ### Projects
