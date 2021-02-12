@@ -15,4 +15,4 @@ I keep working on several on-going projects:
 &nbsp;&nbsp; ...and the one using data from <a href="https://covidtracking.com/" title="Tracking COVID Project" target="_blank">The Tracking COVID Project</a> is <a href="https://fdepaolis.github.io/github-site/ATL.html" title="COVID19_ATL" target="_blank">here</a>
 
 #### US Trade
-&nbsp;&nbsp; coming up soon
+&nbsp;&nbsp; Click <a href="https://fdepaolis.github.io/github-site/US_Trade.html" title="US_Trade" target="_blank">here</a>
