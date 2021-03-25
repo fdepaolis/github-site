@@ -7,7 +7,7 @@ I plan to use this page for my data science projects and most of them are develo
 
 
 ### Projects
-I keep working on several simulataneous projects:
+I keep working on several simultaneous projects:
 <br>
 #### COVID19 (mostly data processing, but also Time Series Analysis)
 &nbsp;&nbsp; The one that uses <a href="https://github.com/nytimes/covid-19-data" title="NewYorkTime github" target="_blank">New York Times COVID19 data</a> by state and county is <a href="https://fdepaolis.github.io/github-site/NYT.html" title="COVID19_NYT" target="_blank">here</a>
