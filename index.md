@@ -5,9 +5,12 @@
 ### Purpose
 I plan to use this page for my data science projects and most of them are developed for teaching purposes. There will be lots of references to the work of others, and hopefully people will find it useful.
 
+### Current Projects
+I will be posting new projects before the end of the summer 2023. Please come back soon.
+<br>
 
 ### Older Projects
-I keep working on several simultaneous projects:
+These are some of the older projects:
 <br>
 #### COVID19
 &nbsp;&nbsp; <a href="https://fdepaolis.github.io/github-site/NYT.html" title="COVID19_NYT" target="_blank">This one</a> uses The New York Times COVID19 dataset by state and county.
