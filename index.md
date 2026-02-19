@@ -8,6 +8,7 @@ Please come back soon.
 I keep working on several simultaneous projects:
 These are some of the older projects:
 <br>
+
 #### COVID19
 &nbsp;&nbsp; <a href="https://fdepaolis.github.io/github-site/NYT.html" title="COVID19_NYT" target="_blank">This one</a> uses The New York Times COVID19 dataset by state and county.
 
