@@ -1,21 +1,20 @@
-## Welcome to my github "Data Science in R" pages
+# Welcome to my github "Data Science in R" pages
 
 
 
-### Purpose
+## Purpose
 I plan to use this page for my data science projects and most of them are developed for teaching purposes. There will be lots of references to the work of others, and hopefully people will find it useful.
 
-### Current Projects
+## Projects
 I will be posting new projects before the end of the summer 2023. Please come back soon.
 <br>
 
 ### Older Projects
 These are some of the older projects:
 <br>
-#### COVID19
-&nbsp;&nbsp; <a href="https://fdepaolis.github.io/github-site/NYT.html" title="COVID19_NYT" target="_blank">This one</a> uses The New York Times COVID19 dataset by state and county.
+    #### COVID19
+    &nbsp;&nbsp; <a href="https://fdepaolis.github.io/github-site/NYT.html" title="COVID19_NYT" target="_blank">This one</a> uses The New York Times COVID19 dataset by state and county.
+    &nbsp;&nbsp; <a href="https://fdepaolis.github.io/github-site/ATL.html" title="COVID19_NYT" target="_blank">This one</a> uses data from the Tracking COVID project.
 
-&nbsp;&nbsp; <a href="https://fdepaolis.github.io/github-site/ATL.html" title="COVID19_NYT" target="_blank">This one</a> uses data from the Tracking COVID project.
-
-#### US Trade
-&nbsp;&nbsp; <a href="https://fdepaolis.github.io/github-site/US_Trade.html" title="US_Trade" target="_blank">This project</a> analyzes US trade with China and the world, esp. in manufacturing and electronics.
+    #### US Trade
+    &nbsp;&nbsp; <a href="https://fdepaolis.github.io/github-site/US_Trade.html" title="US_Trade" target="_blank">This project</a> analyzes US trade with China and the world, esp. in manufacturing and electronics.
