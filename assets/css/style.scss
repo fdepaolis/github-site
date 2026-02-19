@@ -9,4 +9,16 @@ h1 img {
   height: auto;
 }
 
+
+.indented {
+  padding-left: 2em;
+  margin-left: 0 !important;
+}
+
+.indented p {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+
 @import "{{ site.theme }}";
