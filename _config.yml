@@ -10,4 +10,3 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://github.com/fdepaolis" target="_blank">View my github profile</a>
   
 theme: jekyll-theme-minimal
-@import "{{ site.theme }}";
