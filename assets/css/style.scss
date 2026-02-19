@@ -7,8 +7,9 @@
 #    display: none;
 # }
 
-.site-logo {
-  max-width: 400px; /* Adjust this value to make it bigger */
+header .site-logo img,
+.site-header .site-logo img {
+  max-width: 400px !important;
+  width: 400px;
   height: auto;
 }
-
