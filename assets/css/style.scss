@@ -1,24 +1,7 @@
 ---
 ---
 
-import "{{ site.theme }}";
 
-section#downloads + * img,
-h1 img {
-  width: 400px !important;
-  height: auto;
+header {
+   display: none;
 }
-
-
-.indented {
-  padding-left: 2em;
-  margin-left: 0 !important;
-}
-
-.indented p {
-  margin-left: 0 !important;
-  padding-left: 0 !important;
-}
-
-
-@import "{{ site.theme }}";
