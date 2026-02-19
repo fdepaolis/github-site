@@ -1,6 +1,5 @@
 title: Fernando DePaolis # your name (or website title) here
 logo: "https://fdepaolis.github.io/github-site/images/Picture1.png" # your photo (or logo) here
-logo_width: 400  # theme-dependent key name
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br><br> 
   <a href="https://www.middlebury.edu/institute/people/fernando-depaolis" target="_blank">View my Middlebury Institute page</a>
@@ -9,4 +8,4 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   <a href="https://github.com/fdepaolis" target="_blank">View my github profile</a>
   
-theme: jekyll-theme-just-the-docs
+theme: jekyll-theme-minimal
