@@ -10,6 +10,7 @@ These are some of the older projects:
 <p><a href="https://fdepaolis.github.io/github-site/NYT.html" title="COVID19_NYT" target="_blank">This one</a> uses The New York Times COVID19 dataset by state and county.</p>
 <p><a href="https://fdepaolis.github.io/github-site/ATL.html" title="COVID19_ATL" target="_blank">This one</a> uses data from the Tracking COVID project.</p>
 </div>
+
 #### US Trade
 <div style="padding-left: 2em;" markdown="0">
 <p><a href="https://fdepaolis.github.io/github-site/US_Trade.html" title="US_Trade" target="_blank">This project</a> analyzes US trade with China and the world, esp. in manufacturing and electronics.</p>
